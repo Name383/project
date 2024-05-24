@@ -1,0 +1,44 @@
+/*Стили для футера*/
+
+.footer{
+    .footer__top{
+        margin-bottom: 74px;
+        img{
+        @media screen and (max-width: $xl) {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+        .row{
+            @media screen and (max-width: $lg) {
+                row-gap: 24px;
+                margin-bottom: 285px;
+        }
+    }
+        .footer__links{
+            text-align: center;
+
+            .footer__links-item-link{
+                font-size: 24px;
+                color: var(--dark);
+
+            }
+        }
+
+        .footer__info{
+            text-align: right;
+            @media screen and (max-width: $xl) {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    }   
+
+    .footer__copyright{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+}
+
+/*Конец стилей для футера*/
